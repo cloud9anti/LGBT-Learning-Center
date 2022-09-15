@@ -1,0 +1,59 @@
+	body {
+		background-color:pink;
+	}
+	
+		.container {
+	background-color: #F8F0E3;
+	border-radius:12px;
+	padding:60px;
+	}
+	
+	#dark {
+		background-color:black;
+		color:pink;
+		border-radius:12px;
+
+		height:42px;
+	}
+	.dark-mode {
+		background-color:black;
+	}
+	.dark-mode2 {
+		background-color:pink;
+	}
+	
+
+
+
+	
+	.collapsible {
+	  background-color: blue;
+	  color: white;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: 2px solid black;
+	  text-align: left;
+	  outline: none;
+	  font-size: 22px;
+	  border-radius: 6px;
+	  margin-bottom:0px;
+	}
+
+	.active, .collapsible:hover {
+	  background-color: #FEBBBB;
+	  color: #2B92E4;
+	}
+
+	.content {
+		visibility:hidden;
+	  padding: 0 18px;
+	  padding-top: 4px;
+	  max-height: 0;
+	  overflow: hidden;
+	  border: 0px solid black;
+	  transition: max-height 0.2s ease-out, visibility 0.2s ease-out, border 0.2s ease-out;
+
+	  background-color: #F3F3F3;
+
+	}

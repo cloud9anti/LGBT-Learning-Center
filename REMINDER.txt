@@ -1,0 +1,5 @@
+git bash
+node app.js 
+(updates every time you change)
+
+http://localhost:3000/
